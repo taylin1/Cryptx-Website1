@@ -8,8 +8,9 @@ function App() {
   return (
     <>
        <NavBar />
-       <SideBar/>
        <Dashboard/>
+       <SideBar/> 
+       
    </>
   )
 }

@@ -31,8 +31,8 @@ const chart =[
 function Dashboard() {
   return (
    <>
-      <section id="projects" className="py-20 bg-white text-center">
-      <div className="grid md:grid-cols-2 gap-12 w-md mx-auto px-4 py-6">
+      <section id="projects" className="py-20 bg-white text-center ">
+      <div className="grid md:grid-cols-2 gap-12 w-md mx-auto px-4 py-6 fixed left-68">
         {/*This creates a new array that cycles through original array*/}
         {chart.map((chart, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition">
