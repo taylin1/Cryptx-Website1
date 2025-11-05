@@ -28,7 +28,7 @@ const chart =[
 ];
 
 
-function MainPage() {
+function Dashboard() {
   return (
    <>
       <section id="projects" className="py-20 bg-white text-center">
@@ -50,4 +50,4 @@ function MainPage() {
   )
 }
 
-export default MainPage;
+export default Dashboard;

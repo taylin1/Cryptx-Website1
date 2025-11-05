@@ -1,7 +1,7 @@
 import React from 'react'
 import Cryptx from "../assets/cryptxlogo.png"
 
-function Dashboard() {
+function SideBar() {
   return (
     <div>
         {/*Dashboard*/}
@@ -58,5 +58,5 @@ function Dashboard() {
   )
 }
 
-export default Dashboard
+export default SideBar;
 
