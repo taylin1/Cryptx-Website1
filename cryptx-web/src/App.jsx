@@ -1,15 +1,16 @@
 import './App.css'
-import Dashboard from './components/Dashboard'
-import NavBar from './components/NavBar'
+import SideBar from './components/SideBar.jsx'
+import NavBar from './components/NavBar.jsx'
+import Dashboard from './components/Dashboard.jsx'
 
 function App() {
   
   return (
     <>
-     <NavBar/>
-     <Dashboard/>
-    
-    </>
+       <NavBar />
+       <SideBar/>
+       <Dashboard/>
+   </>
   )
 }
 

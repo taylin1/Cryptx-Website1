@@ -1,31 +1,81 @@
-import React from 'react'
+import React from "react";
 
 function NavBar() {
-    return(
- <>
- {/*Navbar Container*/}
- <nav className='fixed top-0 left-68 right-0 p-5'>
-    <div className='flex flex-wrap justify-between items-center h-10'>
-        {/*Search Bar*/}
-         <input type="text" id="text" placeholder='Search type of keywords' className='border border-gray-300 rounded-md w-sm p-4 h-10'></input>
-         <div className='flex items-center gap-8'>
-     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell-icon lucide-bell"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></svg>
-     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-question-mark-icon lucide-circle-question-mark"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
-     <button className='w-10 h-10 rounded-full bg-green-600'></button>
+  return (
+    <>
+      {/*Navbar Container*/}
+      <nav className="fixed top-0 left-68 right-0 p-5">
+        <div className="flex flex-wrap justify-between items-center h-10">
+          {/*Search Bar*/}
+          <div className="">
+            <input
+              type="text"
+              id="text"
+              placeholder="Search type of keywords"
+              className="border border-gray-300 rounded-md w-sm p-4 h-10"
+            ></input>
+          </div>
+          <div className="flex items-center gap-8">
+            {/*Icons*/}
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0199 20.53C9.68987 20.53 7.35987 20.16 5.14987 19.42C4.30987 19.13 3.66987 18.54 3.38987 17.77C3.09987 17 3.19987 16.15 3.65987 15.39L4.80987 13.48C5.04987 13.08 5.26987 12.28 5.26987 11.81V8.91998C5.26987 5.19998 8.29987 2.16998 12.0199 2.16998C15.7399 2.16998 18.7699 5.19998 18.7699 8.91998V11.81C18.7699 12.27 18.9899 13.08 19.2299 13.49L20.3699 15.39C20.7999 16.11 20.8799 16.98 20.5899 17.77C20.2999 18.56 19.6699 19.16 18.8799 19.42C16.6799 20.16 14.3499 20.53 12.0199 20.53ZM12.0199 3.66998C9.12987 3.66998 6.76987 6.01998 6.76987 8.91998V11.81C6.76987 12.54 6.46987 13.62 6.09987 14.25L4.94987 16.16C4.72987 16.53 4.66987 16.92 4.79987 17.25C4.91987 17.59 5.21987 17.85 5.62987 17.99C9.80987 19.39 14.2399 19.39 18.4199 17.99C18.7799 17.87 19.0599 17.6 19.1899 17.24C19.3199 16.88 19.2899 16.49 19.0899 16.16L17.9399 14.25C17.5599 13.6 17.2699 12.53 17.2699 11.8V8.91998C17.2699 6.01998 14.9199 3.66998 12.0199 3.66998Z"
+                fill="#828282"
+              />
+              <path
+                d="M13.8801 3.93969C13.8101 3.93969 13.7401 3.92969 13.6701 3.90969C13.3801 3.82969 13.1001 3.76969 12.8301 3.72969C11.9801 3.61969 11.1601 3.67969 10.3901 3.90969C10.1101 3.99969 9.81011 3.90969 9.62011 3.69969C9.43011 3.48969 9.37011 3.18969 9.48011 2.91969C9.89011 1.86969 10.8901 1.17969 12.0301 1.17969C13.1701 1.17969 14.1701 1.85969 14.5801 2.91969C14.6801 3.18969 14.6301 3.48969 14.4401 3.69969C14.2901 3.85969 14.0801 3.93969 13.8801 3.93969Z"
+                fill="#828282"
+              />
+              <path
+                d="M12.02 22.8096C11.03 22.8096 10.07 22.4096 9.37002 21.7096C8.67002 21.0096 8.27002 20.0496 8.27002 19.0596H9.77002C9.77002 19.6496 10.01 20.2296 10.43 20.6496C10.85 21.0696 11.43 21.3096 12.02 21.3096C13.26 21.3096 14.27 20.2996 14.27 19.0596H15.77C15.77 21.1296 14.09 22.8096 12.02 22.8096Z"
+                fill="#828282"
+              />
+            </svg>
 
-     <div>
-        {/*User Information*/}
-       <h4 className='font-bold'>Laurice</h4>
-       <p>@laurice22</p>
-     </div>
-     </div>
-     </div>
-     
-    <hr className='border-gray-300 mt-8'></hr>
-</nav>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 2.75C6.89137 2.75 2.75 6.89137 2.75 12C2.75 17.1086 6.89137 21.25 12 21.25C17.1086 21.25 21.25 17.1086 21.25 12C21.25 6.89137 17.1086 2.75 12 2.75ZM1.25 12C1.25 6.06294 6.06294 1.25 12 1.25C17.9371 1.25 22.75 6.06294 22.75 12C22.75 17.9371 17.9371 22.75 12 22.75C6.06294 22.75 1.25 17.9371 1.25 12Z"
+                fill="#828282"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.9082 7.75C11.419 7.75 10.9691 7.95485 10.6328 8.30201C10.4488 8.49195 10.3003 8.72353 10.2015 8.98401C10.0546 9.37131 9.62155 9.5662 9.23425 9.41932C8.84696 9.27244 8.65206 8.83941 8.79894 8.45211C8.96987 8.0014 9.22883 7.59552 9.55543 7.25836C10.1541 6.64029 10.9848 6.25 11.9082 6.25C13.7903 6.25 15.2502 7.84564 15.2502 9.73065C15.2502 11.3594 14.1668 12.7632 12.6582 13.1232V14C12.6582 14.4142 12.3224 14.75 11.9082 14.75C11.494 14.75 11.1582 14.4142 11.1582 14V12.9613C11.1582 12.2422 11.7276 11.7842 12.2547 11.6764C13.0804 11.5076 13.7502 10.7233 13.7502 9.73065C13.7502 8.59947 12.8892 7.75 11.9082 7.75Z"
+                fill="#828282"
+              />
+              <path
+                d="M12 18.25C12.5523 18.25 13 17.8023 13 17.25C13 16.6977 12.5523 16.25 12 16.25C11.4477 16.25 11 16.6977 11 17.25C11 17.8023 11.4477 18.25 12 18.25Z"
+                fill="#828282"
+              />
+            </svg>
 
- </>
-      
+            <button className="w-10 h-10 rounded-full bg-green-600"></button>
+
+            <div>
+              {/*User Information*/}
+              <h4 className="font-bold">Laurice</h4>
+              <p>@laurice22</p>
+            </div>
+          </div>
+        </div>
+
+        <hr className="border-gray-300 mt-8"></hr>
+      </nav>
+    </>
   );
 }
 
