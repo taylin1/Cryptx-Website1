@@ -37,12 +37,13 @@ function MainPage() {
         {chart.map((chart, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition">
             <img src={chart.icon} alt={chart.icon} className="w-12 h-16  p-2"/>
+            <span></span>
             <div className="p-4">
               <p>{chart.price}</p>
               <h3 className="text-xl font-semibold py-2">{chart.title}</h3>
             </div>
           </div>
-        ))}
+       ))}
       </div>
     </section>
    </>
