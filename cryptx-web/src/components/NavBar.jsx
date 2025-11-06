@@ -3,8 +3,7 @@ import React from "react";
 function NavBar() {
   return (
     <>
-      {/*Navbar Container*/}
-      <nav className="fixed top-0 left-68 right-0 p-5">
+      <nav className="fixed top-0 left-68 right-0 p-5 z-50 bg-white">
         <div className="flex flex-wrap justify-between items-center h-10">
           {/*Search Bar*/}
           <div className="">
@@ -73,8 +72,9 @@ function NavBar() {
           </div>
         </div>
 
-        <hr className="border-gray-300 mt-8"></hr>
+        <hr className="border-gray-300 mt-8 "></hr>
       </nav>
+
     </>
   );
 }

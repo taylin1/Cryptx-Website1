@@ -5,7 +5,7 @@ function SideBar() {
   return (
     <div>
         {/*Dashboard*/}
-      <section className=" fixed top-0 p-5 bg-gray-100 h-screen w-68">
+      <section className="fixed top-0 p-5 bg-gray-100 h-screen w-68">
         <div className='flex justify-center'>
         <img src={Cryptx} className="w-15 h-10" alt="icon"/>
         <h2 className="text-black font-bold text-2xl px-2 mb-8">Cryptx</h2>
@@ -50,9 +50,7 @@ function SideBar() {
                   <a href="#" className='px-8'>Logout</a>
                   </div>
 
-             
-
-           </div>
+            </div>
         </section>
    </div>
   )
