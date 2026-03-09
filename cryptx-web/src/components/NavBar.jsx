@@ -7,7 +7,7 @@ function NavBar() {
   <div className="flex flex-wrap justify-between items-center gap-4">
 
     {/* Search Bar */}
-    <div className="w-60 md:w-full">
+    <div className="w-60 lg:w-auto">
       <input
         type="text"
         placeholder="Search keywords"
