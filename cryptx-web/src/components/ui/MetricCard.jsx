@@ -3,10 +3,9 @@ import React from 'react'
 function MetricCard() {
   return (
     <div>
-       <div>
+       <div >
       <svg
-        width="600"
-        height="508"
+        className='w-full lg:w-[600px] h-auto'
         viewBox="0 0 600 508"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

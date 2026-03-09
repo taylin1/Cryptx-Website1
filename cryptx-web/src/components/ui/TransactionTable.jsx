@@ -5,8 +5,7 @@ function TransactionTable() {
     <div>
        <div>
       <svg
-        width="320"
-        height="352"
+        className='w-full mr-15 mb-10 lg:w-[320]'
         viewBox="0 0 320 352"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -7,9 +7,8 @@ function MainContent() {
    {/*Live Market Chart*/}
      <div>
       <svg
-        width="692"
-        height="358"
-        viewBox="0 0 692 358"
+        className='w-full  mr-15 lg:w-[692px] h-auto'
+        viewBox="0 0 550 500"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
