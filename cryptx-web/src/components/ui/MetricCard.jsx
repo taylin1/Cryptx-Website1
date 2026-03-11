@@ -5,7 +5,7 @@ function MetricCard() {
     <div>
        <div >
       <svg
-        className='w-full lg:w-[600px] h-auto'
+        className='w-full lg:max-w-7xl h-auto'
         viewBox="0 0 600 508"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

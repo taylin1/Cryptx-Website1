@@ -3,9 +3,9 @@ import React from 'react'
 function ChartVisual() {
   return (
     <div>
-       <div>
+       <div className='lg:max-w-2xl mx-auto'>
       <svg
-        className='w-full mr-15 lg:w-[600px]'
+        className='w-full mr-15 '
         viewBox="0 0 600 508"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -5,9 +5,10 @@ function MainContent() {
   return (
    <>
    {/*Live Market Chart*/}
-     <div>
+   <div>
+     <div className="lg:max-w-2xl">
       <svg
-        className='w-full  mr-15 lg:w-[692px] h-auto'
+        className='w-full mr-15 h-auto'
         viewBox="0 0 550 500"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -403,6 +404,7 @@ function MainContent() {
           </linearGradient>
         </defs>
       </svg>
+    </div>
     </div>
   </>
   )

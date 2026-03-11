@@ -13,13 +13,17 @@ function App() {
     <>
        <NavBar />
        <SideBar/> 
-       <div className='flex flex-col mr-15 md:flex-row justify-end justify-evenly items-center space-x-10 mt-25'>
+       <div className='lg:max-w-10xl '>
+        <div className='flex flex-col md:flex-row justify-evenly items-center space-x-10 mt-25 ml-15 w-full'>
        <MetricCard/>
        <ChartVisual/>
        </div>
-       <div className='flex flex-col mr-15 md:flex-row justify-end justify-evenly items-center space-x-20'>
+       </div>
+       <div className='lg:max-w-10xl'>
+       <div className='flex flex-col md:flex-row ml-19 justify-evenly items-center space-x-10 w-full'>
        <TransactionTable/>
        <MainContent/>
+       </div>
        </div>
        
    </>
