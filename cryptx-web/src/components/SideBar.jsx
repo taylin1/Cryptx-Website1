@@ -3,7 +3,7 @@ import Cryptx from "../assets/cryptxlogo.png"
 
 function SideBar() {
   return (
-  <section className="fixed top-0 left-0 h-screen w-64 bg-gray-100 p-5 transform -translate-x-full lg:translate-x-0 transition-transform duration-300">
+  <section className="fixed top-0 left-0 min-h-screen w-64 bg-gray-100 p-5 transform -translate-x-full lg:translate-x-0 transition-transform duration-300">
 
   {/* Logo */}
   <div className="flex items-center gap-2 mb-10">
